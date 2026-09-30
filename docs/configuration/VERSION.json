@@ -1,0 +1,100 @@
+{
+  "repository": "Fused-Gaming/tools",
+  "version": "1.0.1",
+  "releaseDate": "2026-09-30",
+  "status": "stable",
+  "type": "tools",
+  "description": "Tools Marketplace - Central catalog of 28 utilities and support libraries",
+  "revision": {
+    "commit": "documentation-reorganization",
+    "branch": "claude/peaceful-archimedes-48jlj4",
+    "tag": "v1.0.1-tools"
+  },
+  "changes": {
+    "documentationReorganization": "Restructured documentation into docs/ directory with categories: getting-started, guides, reference, configuration, releases",
+    "versionControlHeaders": "Added version control headers to all source files",
+    "enhancedStructure": "Improved documentation organization for better discoverability"
+  },
+  "contents": {
+    "tools": 38,
+    "categories": 16,
+    "utilities": 28,
+    "capabilities": 50
+  },
+  "dependencies": {
+    "skills": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/skills",
+      "required": false,
+      "integrity": "sha256-SKILLS-v1.0.0"
+    },
+    "agents": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/agents",
+      "required": false,
+      "integrity": "sha256-AGENTS-v1.0.0"
+    }
+  },
+  "security": {
+    "license": "Apache-2.0",
+    "nonCommercial": true,
+    "freeForEducation": true,
+    "verified": true,
+    "checksum": "sha256-TOOLS-v1.0.1"
+  },
+  "quality": {
+    "deterministic": true,
+    "reproducible": true,
+    "locked": true,
+    "hardened": true,
+    "documentation": "complete"
+  },
+  "files": {
+    "total": 16,
+    "code": 0,
+    "documentation": 13,
+    "configuration": 3
+  },
+  "fileStructure": {
+    "root": [
+      "README.md",
+      "LICENSE",
+      "CHANGELOG.md",
+      "validate-tools.sh"
+    ],
+    "docs/getting-started": [
+      "README.md"
+    ],
+    "docs/guides": [
+      "TOOLS_SUPPLEMENT.md"
+    ],
+    "docs/reference": [
+      "TOOLS_CATALOG.md",
+      "ADD_TOOL_TEMPLATE.md",
+      "MARKETPLACE.md"
+    ],
+    "docs/configuration": [
+      "VERSION.json",
+      "marketplace-registry.json",
+      "package-lock.json",
+      "ENVIRONMENT.md",
+      "MANIFEST.json"
+    ],
+    "docs/releases": [
+      "RELEASE_v1.0.0.md"
+    ]
+  },
+  "metadata": {
+    "created": "2026-09-30T06:35:00Z",
+    "updated": "2026-09-30T08:00:00Z",
+    "maintainer": "Fused Gaming",
+    "copyright": "Fused Gaming Inc."
+  },
+  "verification": {
+    "status": "VERIFIED",
+    "integrityCheck": true,
+    "signatureRequired": false,
+    "reproducibleBuild": true,
+    "lockfile": "package-lock.json"
+  }
+}

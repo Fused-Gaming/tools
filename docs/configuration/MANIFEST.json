@@ -1,0 +1,182 @@
+{
+  "version": "1.0.1",
+  "name": "Fused Gaming Tools Manifest",
+  "description": "File manifest and tracking for the Fused Gaming Tools repository",
+  "generatedAt": "2026-09-30T08:00:00Z",
+  "files": {
+    "root": {
+      "README.md": {
+        "purpose": "Root entry point with links to documentation",
+        "path": "/README.md",
+        "type": "markdown",
+        "size": "~2KB",
+        "versionControlled": true
+      },
+      "LICENSE": {
+        "purpose": "Apache-2.0 license terms",
+        "path": "/LICENSE",
+        "type": "text",
+        "size": "~5KB",
+        "versionControlled": true
+      },
+      "CHANGELOG.md": {
+        "purpose": "Version history and changes",
+        "path": "/CHANGELOG.md",
+        "type": "markdown",
+        "size": "~3KB",
+        "versionControlled": true
+      },
+      "validate-tools.sh": {
+        "purpose": "Validation script for marketplace registry",
+        "path": "/validate-tools.sh",
+        "type": "bash",
+        "size": "~4KB",
+        "executable": true,
+        "versionControlled": true
+      },
+      "package-lock.json": {
+        "purpose": "NPM dependency lock file (root copy)",
+        "path": "/package-lock.json",
+        "type": "json",
+        "size": "~1KB",
+        "versionControlled": true
+      }
+    },
+    "docs/getting-started": {
+      "README.md": {
+        "purpose": "Quick start guide and overview",
+        "path": "/docs/getting-started/README.md",
+        "type": "markdown",
+        "size": "~4KB",
+        "versionControlled": true,
+        "versionHeader": true
+      }
+    },
+    "docs/guides": {
+      "TOOLS_SUPPLEMENT.md": {
+        "purpose": "Supplementary tools information",
+        "path": "/docs/guides/TOOLS_SUPPLEMENT.md",
+        "type": "markdown",
+        "size": "~3KB",
+        "versionControlled": true,
+        "versionHeader": true
+      }
+    },
+    "docs/reference": {
+      "TOOLS_CATALOG.md": {
+        "purpose": "Complete tool inventory and search guide",
+        "path": "/docs/reference/TOOLS_CATALOG.md",
+        "type": "markdown",
+        "size": "~10KB",
+        "versionControlled": true,
+        "versionHeader": true
+      },
+      "ADD_TOOL_TEMPLATE.md": {
+        "purpose": "Guide for adding new tools to marketplace",
+        "path": "/docs/reference/ADD_TOOL_TEMPLATE.md",
+        "type": "markdown",
+        "size": "~6KB",
+        "versionControlled": true,
+        "versionHeader": true
+      },
+      "MARKETPLACE.md": {
+        "purpose": "Marketplace specifications and schema",
+        "path": "/docs/reference/MARKETPLACE.md",
+        "type": "markdown",
+        "size": "~12KB",
+        "versionControlled": true,
+        "versionHeader": true
+      }
+    },
+    "docs/configuration": {
+      "VERSION.json": {
+        "purpose": "Version information and metadata",
+        "path": "/docs/configuration/VERSION.json",
+        "type": "json",
+        "size": "~3KB",
+        "versionControlled": true
+      },
+      "ENVIRONMENT.md": {
+        "purpose": "Setup and configuration guide",
+        "path": "/docs/configuration/ENVIRONMENT.md",
+        "type": "markdown",
+        "size": "~5KB",
+        "versionControlled": true,
+        "versionHeader": true
+      },
+      "MANIFEST.json": {
+        "purpose": "This file - file manifest and tracking",
+        "path": "/docs/configuration/MANIFEST.json",
+        "type": "json",
+        "size": "~8KB",
+        "versionControlled": true
+      },
+      "marketplace-registry.json": {
+        "purpose": "Complete tool registry with metadata",
+        "path": "/docs/configuration/marketplace-registry.json",
+        "type": "json",
+        "size": "~30KB",
+        "versionControlled": true
+      },
+      "package-lock.json": {
+        "purpose": "NPM dependency lock file (backup)",
+        "path": "/docs/configuration/package-lock.json",
+        "type": "json",
+        "size": "~1KB",
+        "versionControlled": true
+      }
+    },
+    "docs/releases": {
+      "RELEASE_v1.0.0.md": {
+        "purpose": "Release notes for version 1.0.0",
+        "path": "/docs/releases/RELEASE_v1.0.0.md",
+        "type": "markdown",
+        "size": "~2KB",
+        "versionControlled": true,
+        "versionHeader": true
+      }
+    }
+  },
+  "statistics": {
+    "totalFiles": 16,
+    "byType": {
+      "markdown": 8,
+      "json": 5,
+      "bash": 1,
+      "text": 1
+    },
+    "byLocation": {
+      "root": 5,
+      "docs/getting-started": 1,
+      "docs/guides": 1,
+      "docs/reference": 3,
+      "docs/configuration": 5,
+      "docs/releases": 1
+    }
+  },
+  "structure": {
+    "description": "Documentation reorganization v1.0.1",
+    "directories": {
+      "docs/getting-started": "Entry point and quickstart",
+      "docs/guides": "Integration and usage guides",
+      "docs/reference": "Complete reference documentation",
+      "docs/configuration": "Configuration, version, and manifest",
+      "docs/releases": "Release notes and history"
+    }
+  },
+  "versionControl": {
+    "headers": "All docs files include version control headers",
+    "headerFormat": "HTML comment at top of markdown files",
+    "headerFields": [
+      "Version",
+      "Last Updated",
+      "Status",
+      "Repository"
+    ]
+  },
+  "integrity": {
+    "checksums": "Available in VERSION.json",
+    "validated": true,
+    "lastValidation": "2026-09-30T08:00:00Z"
+  }
+}
