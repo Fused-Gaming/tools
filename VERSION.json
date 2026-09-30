@@ -1,14 +1,20 @@
 {
   "repository": "Fused-Gaming/tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "releaseDate": "2026-09-30",
   "status": "stable",
   "type": "tools",
   "description": "Tools Marketplace - Central catalog of 28 utilities and support libraries",
   "revision": {
-    "commit": "b2dc419",
-    "branch": "main",
-    "tag": "v1.0.0-tools"
+    "commit": "documentation-reorganization",
+    "branch": "claude/peaceful-archimedes-48jlj4",
+    "tag": "v1.0.1-tools"
+  },
+  "changes": {
+    "documentationReorganization": "Restructured documentation into docs/ directory with categories: getting-started, guides, reference, configuration, releases",
+    "versionControlHeaders": "Added version control headers to all source files",
+    "enhancedStructure": "Improved documentation organization for better discoverability",
+    "agentOrchestration": "Added CLAUDE.md, SKILL.md, AGENTS.md for coordinated agent workflows"
   },
   "contents": {
     "tools": 38,
@@ -35,7 +41,7 @@
     "nonCommercial": true,
     "freeForEducation": true,
     "verified": true,
-    "checksum": "sha256-TOOLS-v1.0.0"
+    "checksumLabel": "TOOLS-v1.0.1"
   },
   "quality": {
     "deterministic": true,
@@ -45,14 +51,53 @@
     "documentation": "complete"
   },
   "files": {
-    "total": 5,
+    "total": 19,
     "code": 0,
-    "documentation": 4,
-    "configuration": 1
+    "documentation": 13,
+    "configuration": 5,
+    "orchestration": 3
+  },
+  "fileStructure": {
+    "root": [
+      "README.md",
+      "LICENSE",
+      "CHANGELOG.md",
+      "validate-tools.sh",
+      "CLAUDE.md",
+      "SKILL.md",
+      "AGENTS.md"
+    ],
+    "docs/getting-started": [
+      "README.md"
+    ],
+    "docs/guides": [
+      "TOOLS_SUPPLEMENT.md"
+    ],
+    "docs/reference": [
+      "TOOLS_CATALOG.md",
+      "ADD_TOOL_TEMPLATE.md",
+      "MARKETPLACE.md"
+    ],
+    "docs/configuration": [
+      "VERSION.json",
+      "marketplace-registry.json",
+      "ENVIRONMENT.md",
+      "MANIFEST.json"
+    ],
+    "docs/releases": [
+      "RELEASE_v1.0.0.md"
+    ]
+  },
+  "canonicalPaths": {
+    "documentation": "docs/",
+    "version": "VERSION.json (root or docs/configuration/)",
+    "registry": "docs/configuration/marketplace-registry.json",
+    "catalog": "docs/reference/TOOLS_CATALOG.md",
+    "changelog": "CHANGELOG.md"
   },
   "metadata": {
     "created": "2026-09-30T06:35:00Z",
-    "updated": "2026-09-30T07:00:00Z",
+    "updated": "2026-09-30T08:45:00Z",
     "maintainer": "Fused Gaming",
     "copyright": "Fused Gaming Inc."
   },

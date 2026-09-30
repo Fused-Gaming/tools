@@ -5,8 +5,8 @@
 
 set -e
 
-REGISTRY_FILE="marketplace-registry.json"
-CATALOG_FILE="TOOLS_CATALOG.md"
+REGISTRY_FILE="docs/configuration/marketplace-registry.json"
+CATALOG_FILE="docs/reference/TOOLS_CATALOG.md"
 
 # Colors
 RED='\033[0;31m'

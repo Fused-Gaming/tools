@@ -40,7 +40,7 @@
     "nonCommercial": true,
     "freeForEducation": true,
     "verified": true,
-    "checksum": "sha256-TOOLS-v1.0.1"
+    "checksumLabel": "TOOLS-v1.0.1"
   },
   "quality": {
     "deterministic": true,
