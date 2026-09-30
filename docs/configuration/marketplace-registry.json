@@ -1,0 +1,1094 @@
+{
+  "registry": {
+    "version": "1.0.0",
+    "name": "Fused Gaming Tools Marketplace",
+    "description": "Central catalog of all available tools and utilities in the Fused Gaming ecosystem",
+    "lastUpdated": "2026-09-30T06:40:00Z",
+    "source": "Fused-Gaming/Fused-Gaming-Skill-MCP",
+    "totalTools": 36,
+    "tools": [
+      {
+        "id": "email-tools",
+        "name": "Email Tools",
+        "version": "1.0.0",
+        "description": "Email sending and templating utilities with multiple provider support",
+        "category": "communication",
+        "package": "@h4shed/email-tools",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "email-sending",
+          "template-management",
+          "batch-operations"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "email",
+          "communication",
+          "templates",
+          "utilities"
+        ]
+      },
+      {
+        "id": "flow-field",
+        "name": "Flow Field Generator",
+        "version": "1.0.0",
+        "description": "Generate vector flow fields for particle systems and animations",
+        "category": "graphics",
+        "package": "@h4shed/flow-field",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "flow-generation",
+          "vector-math",
+          "particle-support"
+        ],
+        "dependencies": [
+          "p5.js"
+        ],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "graphics",
+          "visualization",
+          "particles",
+          "animation"
+        ]
+      },
+      {
+        "id": "svg-rendering",
+        "name": "SVG Rendering Engine",
+        "version": "1.0.0",
+        "description": "High-performance SVG generation and manipulation utilities",
+        "category": "graphics",
+        "package": "@h4shed/svg-rendering",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "svg-generation",
+          "shape-creation",
+          "style-application"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "svg",
+          "graphics",
+          "rendering",
+          "web"
+        ]
+      },
+      {
+        "id": "project-state-cache",
+        "name": "Project State Cache",
+        "version": "1.0.0",
+        "description": "Intelligent caching system for project state management and retrieval",
+        "category": "infrastructure",
+        "package": "@h4shed/project-state-cache",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "state-caching",
+          "cache-invalidation",
+          "persistence"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "caching",
+          "state-management",
+          "performance"
+        ]
+      },
+      {
+        "id": "component-generator",
+        "name": "Component Generator",
+        "version": "1.0.0",
+        "description": "Generate React/Vue/Angular components from specifications",
+        "category": "frontend",
+        "package": "@h4shed/component-generator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "component-scaffolding",
+          "code-generation",
+          "multi-framework"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "components",
+          "frontend",
+          "code-generation"
+        ]
+      },
+      {
+        "id": "markdown-parser",
+        "name": "Advanced Markdown Parser",
+        "version": "1.0.0",
+        "description": "Extended Markdown parser with custom syntax support",
+        "category": "content",
+        "package": "@h4shed/markdown-parser",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "markdown-parsing",
+          "syntax-extension",
+          "ast-generation"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "markdown",
+          "parsing",
+          "content"
+        ]
+      },
+      {
+        "id": "type-generator",
+        "name": "Type Generator",
+        "version": "1.0.0",
+        "description": "Generate TypeScript types from JSON schemas and APIs",
+        "category": "development",
+        "package": "@h4shed/type-generator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "type-generation",
+          "schema-parsing",
+          "api-introspection"
+        ],
+        "dependencies": [
+          "typescript"
+        ],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "typescript",
+          "types",
+          "code-generation"
+        ]
+      },
+      {
+        "id": "validation-engine",
+        "name": "Validation Engine",
+        "version": "1.0.0",
+        "description": "Comprehensive data validation with custom rules and schemas",
+        "category": "data",
+        "package": "@h4shed/validation-engine",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "schema-validation",
+          "custom-rules",
+          "error-reporting"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "validation",
+          "data",
+          "schemas"
+        ]
+      },
+      {
+        "id": "session-aggregator",
+        "name": "Session Aggregator",
+        "version": "1.0.0",
+        "description": "Aggregate and analyze sessions across multiple accounts",
+        "category": "analytics",
+        "package": "@h4shed/session-aggregator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "session-aggregation",
+          "analytics",
+          "reporting"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "sessions",
+          "analytics",
+          "aggregation"
+        ]
+      },
+      {
+        "id": "deployment-validator",
+        "name": "Deployment Validator",
+        "version": "1.0.0",
+        "description": "Pre-deployment checks and validation for production readiness",
+        "category": "devops",
+        "package": "@h4shed/deployment-validator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "pre-flight-checks",
+          "health-validation",
+          "readiness-testing"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "deployment",
+          "validation",
+          "devops"
+        ]
+      },
+      {
+        "id": "asset-optimizer",
+        "name": "Asset Optimizer",
+        "version": "1.0.0",
+        "description": "Optimize images, videos, and other media assets for web",
+        "category": "media",
+        "package": "@h4shed/asset-optimizer",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "image-optimization",
+          "compression",
+          "format-conversion"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "assets",
+          "optimization",
+          "media",
+          "performance"
+        ]
+      },
+      {
+        "id": "character-builder",
+        "name": "Character Builder",
+        "version": "1.0.0",
+        "description": "Build and manage character profiles with systematic development",
+        "category": "content",
+        "package": "@h4shed/character-builder",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "character-creation",
+          "profile-management",
+          "trait-assignment"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "characters",
+          "content",
+          "creative-writing"
+        ]
+      },
+      {
+        "id": "narrative-engine",
+        "name": "Narrative Engine",
+        "version": "1.0.0",
+        "description": "Generate and manage narrative structures and story flows",
+        "category": "content",
+        "package": "@h4shed/narrative-engine",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "story-generation",
+          "plot-management",
+          "narrative-flow"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "narrative",
+          "story",
+          "content-creation"
+        ]
+      },
+      {
+        "id": "research-aggregator",
+        "name": "Research Aggregator",
+        "version": "1.0.0",
+        "description": "Collect, organize, and synthesize research from multiple sources",
+        "category": "research",
+        "package": "@h4shed/research-aggregator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "source-collection",
+          "citation-management",
+          "synthesis"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "research",
+          "aggregation",
+          "synthesis"
+        ]
+      },
+      {
+        "id": "code-formatter",
+        "name": "Code Formatter",
+        "version": "1.0.0",
+        "description": "Multi-language code formatting and style consistency",
+        "category": "development",
+        "package": "@h4shed/code-formatter",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "code-formatting",
+          "style-enforcement",
+          "multi-language"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "formatting",
+          "code-quality",
+          "style"
+        ]
+      },
+      {
+        "id": "theme-engine",
+        "name": "Theme Engine",
+        "version": "1.0.0",
+        "description": "Dynamic theme generation and management system",
+        "category": "frontend",
+        "package": "@h4shed/theme-engine",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "theme-generation",
+          "color-management",
+          "design-token-export"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "themes",
+          "design-system",
+          "colors"
+        ]
+      },
+      {
+        "id": "api-generator",
+        "name": "API Generator",
+        "version": "1.0.0",
+        "description": "Generate REST and GraphQL APIs from specifications",
+        "category": "backend",
+        "package": "@h4shed/api-generator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "api-scaffolding",
+          "rest-generation",
+          "graphql-support"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "api",
+          "backend",
+          "code-generation"
+        ]
+      },
+      {
+        "id": "database-tools",
+        "name": "Database Tools",
+        "version": "1.0.0",
+        "description": "Database utilities for schema generation and migration",
+        "category": "backend",
+        "package": "@h4shed/database-tools",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "schema-generation",
+          "migrations",
+          "query-building"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "database",
+          "backend",
+          "schema"
+        ]
+      },
+      {
+        "id": "test-generator",
+        "name": "Test Generator",
+        "version": "1.0.0",
+        "description": "Generate unit and integration tests automatically",
+        "category": "testing",
+        "package": "@h4shed/test-generator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "test-generation",
+          "coverage-analysis",
+          "framework-support"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "testing",
+          "code-generation",
+          "quality"
+        ]
+      },
+      {
+        "id": "documentation-generator",
+        "name": "Documentation Generator",
+        "version": "1.0.0",
+        "description": "Generate API docs, guides, and README files",
+        "category": "documentation",
+        "package": "@h4shed/documentation-generator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "doc-generation",
+          "markdown-output",
+          "api-docs"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "documentation",
+          "markdown",
+          "api-docs"
+        ]
+      },
+      {
+        "id": "analytics-engine",
+        "name": "Analytics Engine",
+        "version": "1.0.0",
+        "description": "Track, analyze, and report on application metrics",
+        "category": "analytics",
+        "package": "@h4shed/analytics-engine",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "metrics-tracking",
+          "analytics-reporting",
+          "dashboard-support"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "analytics",
+          "metrics",
+          "tracking"
+        ]
+      },
+      {
+        "id": "auth-manager",
+        "name": "Authentication Manager",
+        "version": "1.0.0",
+        "description": "Multi-strategy authentication and authorization utilities",
+        "category": "security",
+        "package": "@h4shed/auth-manager",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "authentication",
+          "authorization",
+          "token-management"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "security",
+          "authentication",
+          "authorization"
+        ]
+      },
+      {
+        "id": "error-handler",
+        "name": "Error Handler",
+        "version": "1.0.0",
+        "description": "Comprehensive error handling and reporting system",
+        "category": "infrastructure",
+        "package": "@h4shed/error-handler",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "error-tracking",
+          "logging",
+          "alerting"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "error-handling",
+          "logging",
+          "monitoring"
+        ]
+      },
+      {
+        "id": "cache-manager",
+        "name": "Cache Manager",
+        "version": "1.0.0",
+        "description": "Advanced caching strategies and invalidation patterns",
+        "category": "infrastructure",
+        "package": "@h4shed/cache-manager",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "caching",
+          "invalidation",
+          "performance-optimization"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "caching",
+          "performance",
+          "infrastructure"
+        ]
+      },
+      {
+        "id": "workflow-engine",
+        "name": "Workflow Engine",
+        "version": "1.0.0",
+        "description": "Define, execute, and monitor automated workflows",
+        "category": "automation",
+        "package": "@h4shed/workflow-engine",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "workflow-definition",
+          "execution",
+          "monitoring"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "workflow",
+          "automation",
+          "orchestration"
+        ]
+      },
+      {
+        "id": "data-transformer",
+        "name": "Data Transformer",
+        "version": "1.0.0",
+        "description": "Transform data between formats and schemas",
+        "category": "data",
+        "package": "@h4shed/data-transformer",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "data-transformation",
+          "format-conversion",
+          "mapping"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": [
+          "data",
+          "transformation",
+          "conversion"
+        ]
+      },
+      {
+        "id": "skill-repository-server",
+        "name": "Skill Repository Server",
+        "version": "1.0.0",
+        "description": "Centralized HTTP-based skill discovery and management API with tool registry",
+        "category": "infrastructure",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "skill-discovery",
+          "tool-registry",
+          "api-endpoints",
+          "metadata-caching"
+        ],
+        "tools": [
+          "list-skills",
+          "discover-tools",
+          "search-tools",
+          "search-skills",
+          "execute-tool",
+          "health-check"
+        ],
+        "dependencies": [
+          "@modelcontextprotocol/sdk",
+          "express"
+        ],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "infrastructure",
+          "discovery",
+          "api",
+          "mcp",
+          "registry"
+        ]
+      },
+      {
+        "id": "sync-coordinator-server",
+        "name": "Sync Coordinator Server",
+        "version": "1.0.0",
+        "description": "Multi-agent task coordination and synchronization with event bus and state management",
+        "category": "infrastructure",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "task-coordination",
+          "agent-orchestration",
+          "event-streaming",
+          "state-management"
+        ],
+        "tools": [
+          "sync-tasks",
+          "coordinate-agents",
+          "manage-workflow-state",
+          "publish-event",
+          "subscribe-events",
+          "get-status"
+        ],
+        "dependencies": [
+          "@modelcontextprotocol/sdk",
+          "express"
+        ],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "infrastructure",
+          "coordination",
+          "multi-agent",
+          "orchestration",
+          "events"
+        ]
+      },
+      {
+        "id": "skill-registry-utility",
+        "name": "Skill Registry Utility",
+        "version": "1.0.0",
+        "description": "Dynamic skill loading, management, and lifecycle control library",
+        "category": "development",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "skill-loading",
+          "lifecycle-management",
+          "skill-registration",
+          "in-memory-registry"
+        ],
+        "tools": [
+          "loadSkill",
+          "registerSkill",
+          "getSkill",
+          "listSkills",
+          "unloadSkill",
+          "unloadAll"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "development",
+          "utilities",
+          "skill-management",
+          "typescript"
+        ]
+      },
+      {
+        "id": "config-manager-utility",
+        "name": "Configuration Manager Utility",
+        "version": "1.0.0",
+        "description": "Centralized .fused-gaming-mcp.json configuration management with validation",
+        "category": "development",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "config-loading",
+          "config-validation",
+          "environment-overrides",
+          "config-templates"
+        ],
+        "tools": [
+          "loadConfig",
+          "saveConfig",
+          "getDefaultConfig",
+          "validateConfig"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "development",
+          "configuration",
+          "utilities",
+          "management"
+        ]
+      },
+      {
+        "id": "mcp-type-definitions",
+        "name": "MCP Type Definitions Library",
+        "version": "1.0.0",
+        "description": "TypeScript type definitions and interfaces for MCP ecosystem development",
+        "category": "development",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "type-definitions",
+          "typescript-support",
+          "schema-validation",
+          "interfaces"
+        ],
+        "tools": [
+          "ToolDefinition",
+          "ToolInputSchema",
+          "Skill",
+          "SkillConfig",
+          "FusedGamingConfig"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "development",
+          "typescript",
+          "types",
+          "schema"
+        ]
+      },
+      {
+        "id": "agent-coordination-framework",
+        "name": "Agent Coordination Framework",
+        "version": "1.0.0",
+        "description": "Framework for multi-agent task synchronization with priority scheduling",
+        "category": "infrastructure",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "multi-agent-sync",
+          "priority-scheduling",
+          "workflow-state",
+          "agent-patterns"
+        ],
+        "tools": [
+          "coordinate-agents",
+          "sync-tasks",
+          "manage-state",
+          "get-coordination-status"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "infrastructure",
+          "coordination",
+          "multi-agent",
+          "orchestration"
+        ]
+      },
+      {
+        "id": "event-bus-service",
+        "name": "Event Bus Service",
+        "version": "1.0.0",
+        "description": "Centralized event publishing and subscription with SSE streaming support",
+        "category": "infrastructure",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "event-publishing",
+          "event-subscription",
+          "sse-streaming",
+          "event-filtering"
+        ],
+        "tools": [
+          "publish-event",
+          "subscribe-to-events",
+          "filter-events",
+          "stream-events"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "infrastructure",
+          "events",
+          "streaming",
+          "pub-sub"
+        ]
+      },
+      {
+        "id": "task-queue-manager",
+        "name": "Task Queue Manager",
+        "version": "1.0.0",
+        "description": "Priority-based task queuing with status tracking and multi-agent distribution",
+        "category": "infrastructure",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "task-queuing",
+          "priority-management",
+          "status-tracking",
+          "task-distribution"
+        ],
+        "tools": [
+          "queue-task",
+          "get-task-status",
+          "list-tasks",
+          "complete-task",
+          "track-history"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "infrastructure",
+          "task-management",
+          "queuing",
+          "async"
+        ]
+      },
+      {
+        "id": "mcp-server-foundation",
+        "name": "MCP Server Foundation",
+        "version": "1.0.0",
+        "description": "Stdio-based MCP server framework with skill registration and request handling",
+        "category": "development",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "server-framework",
+          "skill-registration",
+          "request-handling",
+          "error-management"
+        ],
+        "tools": [
+          "register-skill",
+          "handle-request",
+          "manage-tools",
+          "handle-errors"
+        ],
+        "dependencies": [
+          "@modelcontextprotocol/sdk"
+        ],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "development",
+          "mcp",
+          "server",
+          "framework"
+        ]
+      },
+      {
+        "id": "workflow-state-manager",
+        "name": "Workflow State Manager",
+        "version": "1.0.0",
+        "description": "Complex workflow state persistence and tracking for multi-step processes",
+        "category": "infrastructure",
+        "package": "@h4shed/mcp-core",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": [
+          "state-persistence",
+          "workflow-tracking",
+          "state-validation",
+          "history-management"
+        ],
+        "tools": [
+          "save-state",
+          "load-state",
+          "update-state",
+          "track-history",
+          "rollback-state"
+        ],
+        "dependencies": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "skills"
+        },
+        "tags": [
+          "infrastructure",
+          "workflow",
+          "state-management",
+          "persistence"
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "communication",
+    "graphics",
+    "infrastructure",
+    "frontend",
+    "content",
+    "development",
+    "data",
+    "analytics",
+    "devops",
+    "media",
+    "research",
+    "backend",
+    "testing",
+    "documentation",
+    "security",
+    "automation"
+  ],
+  "stats": {
+    "totalTools": 36,
+    "byCategory": {
+      "development": 3,
+      "infrastructure": 3,
+      "frontend": 2,
+      "content": 3,
+      "graphics": 2,
+      "backend": 2,
+      "analytics": 2,
+      "communication": 1,
+      "data": 2,
+      "devops": 1,
+      "media": 1,
+      "research": 1,
+      "testing": 1,
+      "documentation": 1,
+      "security": 1,
+      "automation": 1
+    }
+  }
+}

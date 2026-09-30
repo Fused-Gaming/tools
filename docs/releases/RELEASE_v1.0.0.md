@@ -1,3 +1,10 @@
+<!-- Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Status: active
+- Repository: Fused-Gaming/tools
+-->
+
 # Tools Marketplace v1.0.0 Release - Updated
 
 ## Overview

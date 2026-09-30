@@ -1,3 +1,10 @@
+<!-- Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Status: active
+- Repository: Fused-Gaming/tools
+-->
+
 # Adding New Tools to Marketplace
 
 This document provides a template for adding discovered tools to the Fused Gaming Tools Marketplace.

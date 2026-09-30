@@ -1,3 +1,10 @@
+<!-- Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Status: active
+- Repository: Fused-Gaming/tools
+-->
+
 # Fused Gaming Tools Catalog
 
 Complete inventory of all 28 specialized tools and utilities available in the Fused Gaming ecosystem.
