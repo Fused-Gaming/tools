@@ -1,0 +1,66 @@
+{
+  "repository": "Fused-Gaming/tools",
+  "version": "1.0.0",
+  "releaseDate": "2026-09-30",
+  "status": "stable",
+  "type": "tools",
+  "description": "Tools Marketplace - Central catalog of 28 utilities and support libraries",
+  "revision": {
+    "commit": "b2dc419",
+    "branch": "main",
+    "tag": "v1.0.0-tools"
+  },
+  "contents": {
+    "tools": 28,
+    "categories": 16,
+    "utilities": 28,
+    "capabilities": 50
+  },
+  "dependencies": {
+    "skills": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/skills",
+      "required": false,
+      "integrity": "sha256-SKILLS-v1.0.0"
+    },
+    "agents": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/agents",
+      "required": false,
+      "integrity": "sha256-AGENTS-v1.0.0"
+    }
+  },
+  "security": {
+    "license": "Apache-2.0",
+    "nonCommercial": true,
+    "freeForEducation": true,
+    "verified": true,
+    "checksum": "sha256-TOOLS-v1.0.0"
+  },
+  "quality": {
+    "deterministic": true,
+    "reproducible": true,
+    "locked": true,
+    "hardened": true,
+    "documentation": "complete"
+  },
+  "files": {
+    "total": 5,
+    "code": 0,
+    "documentation": 4,
+    "configuration": 1
+  },
+  "metadata": {
+    "created": "2026-09-30T06:35:00Z",
+    "updated": "2026-09-30T06:50:00Z",
+    "maintainer": "Fused Gaming",
+    "copyright": "Fused Gaming Inc."
+  },
+  "verification": {
+    "status": "VERIFIED",
+    "integrityCheck": true,
+    "signatureRequired": false,
+    "reproducibleBuild": true,
+    "lockfile": "package-lock.json"
+  }
+}
