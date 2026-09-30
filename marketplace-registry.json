@@ -5,7 +5,7 @@
     "description": "Central catalog of all available tools and utilities in the Fused Gaming ecosystem",
     "lastUpdated": "2026-09-30T06:40:00Z",
     "source": "Fused-Gaming/Fused-Gaming-Skill-MCP",
-    "totalTools": 28,
+    "totalTools": 36,
     "tools": [
       {
         "id": "email-tools",
@@ -1071,7 +1071,7 @@
     "automation"
   ],
   "stats": {
-    "totalTools": 28,
+    "totalTools": 36,
     "byCategory": {
       "development": 3,
       "infrastructure": 3,
